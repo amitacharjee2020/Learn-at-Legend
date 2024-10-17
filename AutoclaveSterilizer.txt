@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+<style>
+
+.header{
+background-color:grey;
+
+border:1px solid black;
+margin: 1px solid black;
+height:60px;
+font-size:16px;
+color:blue;
+
+}
+
+</style>
+
+<style>
+.container{
+  marging:1px solid black; 
+  boder:1px solid black;
+    
+    
+}
+    
+    
+</style>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: white; 
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+font-family: calibri;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: blue;
+  padding: 14px 16px;
+  background-color: white;
+  font-family: calibri;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: white;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: red;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: black;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: white;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+</style>
+</head>
+<body>
+
+<div class="header w3-top" >
+    <img src="BloodColletionMonitor.jpg"  style="height:50px; width:60px;">
+   <h3 style="float:right;">JS  Technologies</h3> 
+   
+</div>
+
+<div class="navbar">
+  <a href="index.html" style="color:blue;">Home</a>
+
+  <div class="subnav">
+    <button class="subnavbtn">Centrifuge <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+     <a href="LabCentrifuge.html">Laboratory Centrifuge Machine</a>
+   <a href="refrigeratedCentrifuge.html">Refrigerated Centrifuge Machine</a>
+          <a href="Centrifuge.html">Blood Cell Separation Centrifuge Machine</a>
+      <a href="autoBloodCellWashing.html">Automatic Blood Cell Washing Syste</a>
+        <a href="autoBloodCellWashing.html">Incubators</a>
+
+    </div>
+  </div> 
+   
+  <div class="subnav">
+    <button class="subnavbtn">Incubators<i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+ <a href="GermanyIncubators.html"> Incubators made in Germany</a>
+
+          <a href="KoreanIncubators.html">Incubators made in Korea</a>
+      <a href="JapaneseIncubators.html">Incubators made in Japan</a>
+   
+
+    </div>
+  </div> 
+ 
+
+  
+   <div class="subnav">
+    <button class="subnavbtn">Oven & Furnace<i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+        
+      <a href="LabFurnace.html">Laboratory Furnace</a>
+      <a href="IndustrialFurnace.html">Industrial Furnace</a>
+       <a href="TubeFurnace.html">Tube Furnace</a> 
+         <a href="IndustrialOven.html">Industrial Oven</a>
+         <a href="CleanOven.html">Clean Oven</a>
+          <a href="DryingOven.html">Drying Oven</a>
+          
+    </div>
+  </div> 
+  
+ <div class="subnav">
+    <button class="subnavbtn">Autoclave & Sterilizer<i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+        
+      <a href="LabFurnace.html">Laboratory Autoclave</a>
+    <a href="LabFurnace.html">Medical Autoclave</a>
+    <a href="LabFurnace.html">Autoclave Sterilizer</a>  
+      
+    </div>
+  </div> 
+
+
+ <div class="subnav">
+    <button class="subnavbtn">Other Equipment & Instruments<i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+        
+      <a href="LabFurnace.html">Platelet Storage System</a>
+      <a href="IndustrialFurnace.html">Ultrasonic Cleaner</a>
+
+         <a href="IndustrialOven.html">Vortex Mixer</a>
+         <a href="CleanOven.html">Growth Chamber</a>
+       <a href="DryingOven.html">Safety Cabinet</a>
+         <a href="DryingOven.html">Climatic Chamber</a>
+     <a href="DryingOven.html">Heating Instrument</a>
+     <a href="DryingOven.html">Safety Cabinet</a>
+     <a href="DryingOven.html">Shaker & Incubator</a>
+     <a href="DryingOven.html"> Labware Washer & Dryer</a>
+     <a href="DryingOven.html">Others</a>
+         
+    </div>
+  </div> 
+  
+
+
+  <div class="navbar">
+     
+  <span style="color:black; float:right;"> <a href="register.html" class="w3-bar-item w3-button">Contact</a></span>
+
+</div>
+
+
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-container w3-grayscale-min" style="padding: 40px 1px;" id="home">
+
+</marquee>
+  <marquee width="60%" direction="right to left" height="100px">
+<b>We <b>are the supplier of all kinds of Medical & Scientific Equipment & Instruments & Surgical Devices.</b> 
+</marquee>  
+
+
+    
+    
+  <div class="w3-large" style="padding:10px 1px; background-color:dodgerblue;color:white;font-size:14px;"> 
+   
+
+<div class="w3-content w3-section w3-left" style="max-width:400px">
+     <h5>Centrifuge Machines</h5>
+  
+   <img class="mySlides" src="Hettich.image/HettichCentrifuge.png" style="width:40%">
+   <img class="mySlides" src="Hettich.image/HettichCentrifuge1.jpg" style="width:40%">
+   <img class="mySlides" src="Hettich.image/HettichCentrifuge2.jpg" style="width:40%">
+  
+</div>
+<p>We are the supplier of Centrifuge Machines made in Germany, South Korea & Japan</p>
+
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+
+</div>
+  
+ </div>   
+    
+    
+ 
+    
+  <div class="w3-large" style="padding:100px 1px; background-color:grey;color:white;font-size:14px;">    
+    
+    
+    
+    
+    
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+
+<div class="container w3-grey">
+  
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+       <a href="BloodCollectionMonitor.html"> <img src="Hettich.image/HettichCentrifuge2.jpg" style="width:100%;"></a>
+      </div>
+      
+
+       <div class="item">
+        <img src="Hettich.image/HettichCentrifuge3.jpg"  style="width:100%;">
+      </div>
+      
+   
+       <div class="item">
+        <img src="Hettich.image/HettichCentrifuge4.jpg"  style="width:100%;">
+      </div>
+      
+  
+      <div class="item">
+        <img src="Hettich.image/HettichCentrifuge1.jpg"  style="width:100%;">
+      </div>
+  
+<div class="item">
+        <img src="Hettich.image/HettichIncubator.jpg"  style="width:100%;">
+      </div>
+
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+
+</div>
+
+
+
+
+
+ 
+
+  <!....pagationation...>
+ 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+<div class="container">
+
+  <ul class="pagination">
+    <li><a href="index.html">1</a></li>
+       <li class="active"><a href="SAP.html">2</a></li>
+          <li class="active"><a href="tallyprime.html">3</a></li>
+    <li class="active"><a href="SmartBoard.html">4</a></li>
+    <li class="active"><a href="e-commerce.html">5</a></li>
+  </ul>
+</div>
+
+
+
+
+<! Manufacturer & Product List>
+
+<div class="w3-container" style= "padding:10px 1px;  width:100%; background-color:grey; font-size:16px;color:white;">
+    
+
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+
+<div class="container w3-grey">
+
+<h5>  List of Medical & Scientific Products & Manufactureres </h5>
+  
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+       <a href="https://global.horion.com/"> <img src="Hettich.image/Mproduct.jpg" style="width:100%;"></a>
+      </div>
+      
+
+      <div class="item">
+      <img src="Hettich.image/Mproduct1.jpg" style="width:100%;">
+      </div>
+    
+       <div class="item">
+     <img src="Hettich.image/Mproduct2.jpg" style="width:100%;">
+      </div>
+       <div class="item">
+      <img src="Hettich.image/Mproduct3.jpg" style="width:100%;">
+      </div>
+      
+       <div class="item">
+     <img src="Hettich.image/Mproduct4.jpg" style="width:100%;">
+      </div>
+      
+    <div class="item">
+      <img src="Hettich.image/Mproduct5.jpg" style="width:100%;">
+      </div>  
+     
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+
+
+
+
+
+<div class="container-fluid  w3-white" style="padding:10px 1px; color:white; background-color:black; text-align:center; margin:2px; border: 2px;" >
+    
+
+
+
+<script>
+function myFunction() {
+  var txt;
+  if (confirm("This website is not built by our company. If you want to know more,  you can press OK button & Get started")) {
+    txt = "You pressed OK!";
+  } else {
+    txt = "You pressed Cancel!";
+  }
+  document.getElementById("demo1").innerHTML = txt;
+}
+</script>
+
+
+
+
+<button onclick="myFunction()">Legal Disclaimer</button>
+  
+<p id="demo11"> We are the supplier of Goods of <a href="https://www.lmb.de/">Andreas Hettich GmbH & Co. KG, Germany</a>  & <a href="https://www.delcon.it/">Delcon Srl</a> </p>
+
+
+
+
+
+<script>
+function myFunction() {
+  var txt;
+  if (confirm("This website is not built by our company. If you want to know more,  you can press OK button & Get started")) {
+    txt = "You pressed OK!";
+  } else {
+    txt = "You pressed Cancel!";
+  }
+  document.getElementById("demo1").innerHTML = txt;
+}
+</script>
+
+
+
+
+
+<!....Vertical.....>
+
+
+<style>
+.vertical-menu {
+  width: 200px;
+}
+
+.vertical-menu a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc;
+}
+
+.vertical-menu a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="vertical-menu">
+  <a href="https://www.lmb.de/show-product-room/4" class="active">Labrotory Centrifuge Machine</a>
+    <a href="https://www.lmb.de/show-product-room/3">Refrigerated Centrifuge Machine</a>
+     <a href="https://www.lmb.de/show-product-room/2">Blood Cell Separation Centrifuge Machine</a> 
+  
+ <a href="BloodBagTubeSealer.html">Automatic Blood Cell Washing Syste</a>
+         <a href="ManualPlasmaExtracto.html">Mini Centrifuge Machine</a> 
+          <a href="AutomaticComponentExtractor.html">High Speed Refrigerated Centrifuge Machine</a>
+         <a href="BloodCollectionMonitor.html">Ultra-speed Centrifuge Machine</a>
+      <a href="PlateletStorageSystem.html">General Purpose Refrigerated Centrifuge Machine</a>
+</div>
+
+
+
+  
+  </div>
+</div>
+
+
+
+
+
+
+
+  <div class="w3-large" style="padding:10px 1px; background-color:white;"> 
+
+<style>
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+</style>
+</head>
+<body style="background-color:white;">
+
+
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Know more about Centrifuge &  Incubators</button>
+  
+  <div id="myDropdown" class="dropdown-content">
+   
+    <a href="HettichProductPortfolio.pdf" download   style="color:black; font-family:calibri;" ><p> Download Product Portfolio of Andeas Hettich & Co. AG</p> </a>
+    
+ <a href="HettichGeneralCatalogue.pdf" download   style="color:black; font-family:calibri;" ><p> Download General Catalogue of Andreas Hettich & Co. AG</p> </a>
+ 
+
+
+ <a href="HettichProductPortfolio.pdf" download   style="color:black; font-family:calibri;" ><p> Download Hettich Product Portfolio</p>
+  <a href="HettichIncubator.pdf" download   style="color:black; font-family:calibri;" ><p> Download Incubator of Andreas Hettich & Co. AG</p>
+<a href="Hettich.pdf" download   style="color:black; font-family:calibri;" ><p> Download Technical of  Andreas Hettich & Co. AG</p>
+
+    <a href="companyProfile.pdf" download   style="color:black; font-family:calibri;" ><p> Download Company Profile of JS Software & Technology</p>
+
+    </a>
+
+  </div>
+</div>
+
+
+
+
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+
+
+
+ <!Useful Links>
+
+
+ <div class="w3-large" style="padding:80px 1px; background-color:black;color:white;"> 
+<h1>Useful Links</h1>
+
+<a href="https://www.hettichlab.com/en/productcategory/centrifuges/">Know mare about Hettich Centrifuge</a> <br>
+<a href="https://www.hettichlab.com/en/productgroup/cooling-incubators/">Know more about Hettich Incubators</a>
+
+
+</div>
+
+
+
+
+<!.....Product Card...>
+
+
+<div class="w3-hlaf" style="float:right;padding:80px 1px; color:black;">
+<style>
+  .container {
+    display: flex;
+    justify-content: space-between;
+flex-direction: row;
+flex-wrap: wrap;
+  }
+   .card{
+ border:1px solid black;
+ float:left;
+ padding:1px;
+}
+</style>
+
+
+  <div class="container" style=" margin:1px solid black;"  >
+
+ 
+    <div class="card">
+      <h4>Tablet</h4>
+      <img src="Hettich.image/HettichCentrifuge1.jpg"  style="width:100%">
+    <a class="active" href="e-commerceTablet.html"><h4>View Details of all brands</h4></a>     
+       
+    </div>
+  <div class="card">
+      <h4>Printer</h4>
+      <img src="Hettich.image/HettichCentrifuge2.jpg"  style="width:100%">
+       <a class="active" href="e-commercePrinter.html"><h4>View Details of all brands</h4></a>  
+    </div>
+    <div class="card">
+      <h4>Monitor</h4>
+      <img src="Hettich.image/HettichCentrifuge2.jpg"  style="width:100%">
+         <a class="active" href="e-commerceMonitor.html"><h4>View Details of all brands</h4></a> 
+    </div>
+      </div>
+    
+  </div>
+
+</div>
+
+
+
+
+
+
+<!---Our Products-->
+
+<div class="w3-large" style="padding:40px 1px; background-color:black;"> 
+
+
+
+<div class="w3-large w3-blue" style="font-size:16px; color:blue; font-family:calibri;"> 
+
+<div class="w3-half " style="color:dodgerblue; padding:5px 40px;">
+    
+<h5>Solutions by Industries</h5>
+<i><a href="#trading"><p style="float:bottom; color:blue; ">
+Trading & Distribution</p></a></i>
+<i><a href="#knowmore"><p  style="float:bottom; color:blue;">Food & Beverage</p></a></i>
+	
+	
+ <a href="#knowmore"><p  style="float:bottom; color:blue;">Healthcare Industry</p></a>
+
+	<a href="#softwareservices"><p  style="float:bottom; color:black;">Buy online</p></a>
+
+<a href="#softwareservices"><p  style="float:bottom; color:blue;">Download</p></a>
+
+<a href="#knowmore"><p style="float:bottom; color:blue;">Free trial</p></a>
+
+ </div>
+  </div>
+	
+<div class="w3-large " style="font-size:16px; color:blue; font-family:calibri;  ">
+ 
+<div class="w3-half " style="color:dodgerblue;padding:45px 40px;">
+    
+
+
+    <a href="productBrochure.pdf" download   style="color:black; font-family:calibri;" ><p> Download Product Brochure of Horion</p> </a>
+    <a href="M5APro.pdf" download   style="color:black; font-family:calibri;" ><p> Download Product Brochure of Horion Model M5APro</p> </a> 
+
+<a href="https://online.fliphtml5.com/uzdbb/bgku/#p=1">Check Horion Product Brochure</a> <br>
+
+    
+    <a href="https://online.fliphtml5.com/uzdbb/nvrx/#p=1">Check Smart Board K6A Model Brochure</a>
+    <a href="companyProfile.pdf" download   style="color:black; font-family:calibri;" ><p> Download Company Profile of JS Software & Technology</p>
+
+    </a>
+
+</div>
+</div>
+
+
+
+
+<!----The End----->
+
+<div class="footer w3-bottom" >
+
+
+
+<style> 
+/* Style the Sticky icons on web page */ 
+.stickyicon-list { 
+position:fixed;
+
+bottom: 2px; 
+transform: translateY(-50%);           
+}       
+.stickyicon-list a { 
+display: block; 
+text-align:left; 
+padding: 1px; 
+transition: all 0.5s ease; 
+color: white; 
+font-size: 10px; 
+}       
+/* HOver affect on sticky social media icons */ 
+.stickyicon-list a:hover { 
+color: #000; 
+width:1px; 
+} 
+ 
+/* Now we have to design each icon of social media */       
+.facebook { 
+background: #3b5998; 
+color: white;
+}       
+.twitter { 
+color: white; 
+background: #00acee; 
+} 
+.linkedin { 
+background: #0e76a8; 
+color: white; 
+}       
+.google { 
+color: white; 
+background: #db4a39; 
+} 
+.instagram { 
+background: #3f729b; 
+color: white; 
+}       
+.youtube { 
+color: white; 
+background: #c4302b;  
+} 
+</style> 
+
+
+<div class="stickyicon-list">
+  
+<a href="https://www.facebook.com/amitacharjee2020/" class="facebook"> 
+<i class="fa fa-facebook"></i> 
+</a> 
+<a href="#twitter" class="twitter"> 
+<i class="fa fa-twitter"></i> 
+</a>     
+<a href="https://www.linkedin.com/home" class="linkedin"> 
+<i class="fa fa-linkedin"></i> 
+</a> 
+<a href="#google" class="google"> 
+<i class="fa fa-google"></i> 
+</a>   
+<a href="https://www.instagram.com/reels/CsBrXDNNrx_/" class="instagram"> 
+<i class="fa fa-instagram"></i> 
+</a>                            
+<a href="https://www.youtube.com/@amitkumaracharjee572" class="youtube"> 
+<i class="fa fa-youtube"></i> 
+</a> 
+
+    
+</div>
+
+
+
+
+
+
+<style> 
+div.a {
+  width: 150px;
+  height: 60px;
+  background: dodgerblue;
+  color:white;
+  transition: width 2s;
+}
+
+div.a:hover {
+  width: 300px;
+}
+</style>
+
+
+
+<Style>
+
+div.a{
+text-align:left;
+
+}
+
+div.b{
+text-align:right;
+
+}
+
+div.d{
+text-align:center;}
+
+
+</style>
+
+<div class="a">
+<p>Get in touch<br> Amit Kumar Acharjee <br> Mob:01712878767 </p> <br>
+
+</div>
+
+
+<div class="b" style="color:white;">
+<p>Rahman Chamber (9 th Floor), 12-13 Motijheel
+C/A, Dhaka-1000 </p> <br>
+
+</div>
+
+<div class="d">
+ <a href="#" data-toggle="popover" title="Popover header" data-content="Some content inside the popover">Topup</a> 
+ </div>
+	
+</div>
+
+
+</body>
+</html>
+
+
+
+
